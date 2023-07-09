@@ -17,7 +17,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/BombenProdukt/blade-icons-icomoon-ultimate",
+    "homepage": "https://github.com/faustbrian/blade-icons-icomoon-ultimate",
     "require": {
         "php": "^8.2",
         "illuminate/contracts": "^10.0",
