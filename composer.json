@@ -1,0 +1,66 @@
+{
+    "name": "basecodeoy/blade-icons-icomoon-ultimate",
+    "description": "A package to easily make use of IcoMoon Ultimate with Laravel Blade Icons.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "BaseCode Oy",
+        "laravel",
+        "blade",
+        "blade-icons",
+        "blade-icons-icomoon-ultimate",
+        "icomoon-ultimate"
+    ],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/basecodeoy/blade-icons-icomoon-ultimate",
+    "support": {
+        "issues": "https://github.com/basecodeoy/blade-icons-icomoon-ultimate/issues",
+        "source": "https://github.com/basecodeoy/blade-icons-icomoon-ultimate",
+        "security": "https://github.com/basecodeoy/blade-icons-icomoon-ultimate/blob/main/.github/SECURITY.md"
+    },
+    "require": {
+        "php": "^8.3",
+        "basecodeoy/blade-icons": "^1.0.0",
+        "basecodeoy/crate": "^1.0",
+        "illuminate/contracts": "^11.0"
+    },
+    "require-dev": {
+        "basecodeoy/standards": "^1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseCodeOy\\BladeIcons\\IcoMoonUltimate\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true,
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        },
+        "audit": {
+            "abandoned": "report"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BaseCodeOy\\BladeIcons\\IcoMoonUltimate\\ServiceProvider"
+            ]
+        }
+    }
+}
